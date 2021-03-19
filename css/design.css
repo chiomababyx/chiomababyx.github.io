@@ -156,6 +156,13 @@
 			width:350px;
 			height:auto;
 		}
+		
+		#sec1-1{
+			background-color:hsl(217, 28%, 15%);
+			background-image:url('chiomababyx.github.io/images/bg-curvy-mobile.svg');
+			background-repeat:no-repeat;
+			background-position:bottom;
+		}
 		#first-logo{
 			width:20%;
 			height:auto;
