@@ -157,9 +157,10 @@
 			height:auto;
 		}
 		#first-logo{
-			width:20px;
+			width:20%;
 			height:auto;
 		}
+		#prod
 		#p1{
 			font-family: 'Raleway', Sans-serif;
 			font-size:35px;
@@ -174,7 +175,7 @@
 			margin: 0 50px 0 50px;
 		}
 		#prod-img{
-			width:350px;
+			width:300px;
 			height:auto;
 		}
 		#profile{
