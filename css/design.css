@@ -1,0 +1,215 @@
+   body{
+        font-family: 'Open Sans', Sans-serif;
+        font-size: 14px;
+		background-color:hsl(218, 28%, 13%);
+		background-size:length;
+		color:hsl(0, 0%, 100%);
+		margin:0;
+   }
+	a{
+		text-decoration:none;
+		color:hsl(0, 0%, 100%);
+	}
+	.flexbox{
+		padding-top:50px;
+		display:flex;
+		justify-content:space-between;
+		background-color:hsl(217, 28%, 15%);
+	}
+	ul{
+		list-style-type:none;
+		display:flex;
+		align-items:center;
+	}
+	ul, li{
+		margin-right:20px;
+		font-family: 'Raleway', Sans-serif;
+	}
+	main{	
+		background-color:hsl(218, 28%, 13%);
+		text-align:center;
+	}
+	#sec1{
+		text-align:center;
+	}
+	button{
+		font-family: 'Raleway', Sans-serif;
+		border:0px;
+		border-radius: 20px;
+		padding:10px;
+		width:200px;
+		font-size:15px;
+		font-weight:bold;
+		background-image: linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+	}
+	.grid{
+		display:grid;
+		grid-template-columns: 25% 25%;
+		grid-template-rows: 50% 50%;
+		grid-gap: 50px 200px;
+		align-content:center;
+		justify-content:center;
+		margin:200px 0 0 0;
+	}
+	#productive{
+		display:grid;
+		grid-template-columns: 50% 50%;
+		padding-top:150px;
+		align-items:center;
+	}
+	#profile{
+		display:grid;
+		grid-template-columns: 25% 25% 25%;
+		justify-content:center;
+		background-image:url('../images/bg-quotes.png');
+		background-repeat:no-repeat;
+		background-position:top left 145px;
+	}
+	.profile-flex{
+		display:flex;
+		gap:15px;
+		line-height:0px;
+	}
+	.profile-flex > img{
+		border-radius:100px;
+		height:50px;
+		width:auto;
+	}
+	.profile-card{
+		background-color:hsl(219, 30%, 18%);
+		margin:20px 20px 20px 20px;
+		padding:20px;
+		text-align:left;
+	}
+	footer{
+		align-items:center;
+		background-color:hsl(216, 53%, 9%);
+		padding-top:100px;
+	}
+	footer>img{
+		margin-left:100px;
+	}
+	.footer-grid{
+		display:grid;
+		grid-template-columns: 30% 15% 10% 10% 10%;
+		justify-content:center;
+		grid-gap:40px;
+		line-height:30px;
+	}
+	.grid-flex{
+		display:flex;
+		gap:10px;
+	}
+	.grid-grid-col{
+		display:flex;
+		grid-gap:40px;
+	}
+	#card{
+		margin: 50px 300px 50px 300px;
+		background-color:hsl(217, 28%, 15%);
+		text-align:center;
+		padding: 50px 0 50px 0;
+		border-radius: 20px;
+		box-shadow: 10px 5px black;
+		text-align:center;
+	}
+	#cards{
+		font-size:50px;
+		font-weight:bold;
+	}
+	#card1{
+		display:flex;
+		margin:auto;
+	}
+	input{
+		width:300px;
+		padding: 10px;
+		border-radius: 20px;
+		box-shadow:none !important;
+		color:black !important;
+	}
+	#p1{
+		font-family: 'Raleway', Sans-serif;
+		font-size:50px;
+		font-weight:bold;
+	}
+	#p2{
+		font-size:20px;
+	}
+	#card-grid{
+		justify-content:center;
+		margin-top:20px;
+		display: grid;
+		grid-template-rows:100%;
+		grid-template-columns:50% 25%;
+	}
+	#sec1-1{
+		background-color:hsl(217, 28%, 15%);
+		background-image:url('file:///C:/Users/HP%20FOLIO/Desktop/level-2/images/bg-curvy-desktop.svg');
+		background-repeat:no-repeat;
+		background-position:bottom;
+	}
+	
+	@media screen and (max-width:500px){
+		#first-img{
+			padding-top:100px;
+			width:350px;
+			height:auto;
+		}
+		#p1{
+			font-family: 'Raleway', Sans-serif;
+			font-size:35px;
+		}
+		.grid{
+			grid-template-rows: 25% 25% 25% 25%;
+			grid-template-columns:100%;
+		}
+		#productive{
+			grid-template-rows: 50% 50%;
+			grid-template-columns:100%;
+			margin: 0 50px 0 50px;
+		}
+		#prod-img{
+			width:350px;
+			height:auto;
+		}
+		#profile{
+			grid-template-rows: 25% 25% 25%;
+			grid-template-columns: 100%;
+			justify-content:center;
+			align-items:center;
+			gap:30px;
+			margin-top:100px;
+		}
+		.profile-card{
+			margin:20px 20px 20px 20px;
+			padding:20px;
+		}
+		#card{
+			margin: 10px 30px 10px 30px;
+			display:grid;
+			grid-template-columns:100%;
+			grid-template-rows:50% 25% 25%;
+		}
+		.footer-grid{
+			display:grid;
+			grid-template-columns:100%;
+			grid-template-rows:15% 10% 20% 15%;
+			margin-left:20px;
+		}
+		#ggc2{
+			justify-content:center;
+		}
+		#flogo{
+			margin-left:20px;
+		}
+		
+		#card-grid{
+			justify-content:center;
+			margin-top:20px;
+			display: grid;
+			grid-template-rows:50% 50%;
+			grid-template-columns:100%;
+			gap:20px;
+		}
+	}
