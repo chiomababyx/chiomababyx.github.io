@@ -248,7 +248,7 @@ footer{
         display:grid;
         grid-template-rows: 20% 20% 20% 20% 20%;
         grid-template-columns: 100%;
-        gap:25%;
+        gap:15%;
     }
     footer img{
         margin-bottom:2rem;
@@ -258,9 +258,29 @@ footer{
     }
 }
 
+@media screen and (max-width:375px){
+    nav img{
+        width:120px;
+    }
+    .intro-section img{
+        width:300px;
+    }
+    h2{
+        line-height:2rem;
+    }
+    p{
+        line-height: 1rem;
+    }
+    .productive img{
+        width:250px;
+    }
+}
 @media screen and (max-width:320px){
     nav img{
         width:100px;
+    }
+    .right{
+        margin-right: 0.3rem;
     }
     .intro-section img{
         width:300px;
